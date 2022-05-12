@@ -1,4 +1,4 @@
-### Olá, sou o Robson 🙋 👋 
+### Olá, sou o Robson 🙋 👋.
 
 *Computer Engineering Student at the Federal University of Pernambuco - UFPE*
 
