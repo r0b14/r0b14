@@ -1,6 +1,16 @@
-### Olá, sou o Robson 🙋 👋.
+### Hi, i'm Robson 🙋 👋.
 
 *Computer Engineering Student at the Federal University of Pernambuco - UFPE*
+
+**Works**
+- Dev Front-end @V-lab UFPE
+  - React, Typescript, Tailwindcss, HTML, CSS, JavaScript
+- Technology Tutor @CESAR School
+  - Python, HTML, CSS e JavaScript
+- Dev Front-end @Instituto Fenix
+  - React, HTML, CSS e JavaScript
+  - n8n, Azure
+  - IT infrastructure
 
 <div style="display: inline_block">
   <br>
