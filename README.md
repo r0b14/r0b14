@@ -3,7 +3,7 @@
 *Computer Engineering Student at the Federal University of Pernambuco - UFPE*
 
 **Works**
-- Dev Front-end @V-lab UFPE
+- Dev Front-end @V-Lab UFPE
   - React, Typescript, Tailwindcss, HTML, CSS, JavaScript
 - Technology Tutor @CESAR School
   - Python, HTML, CSS e JavaScript
