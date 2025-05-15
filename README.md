@@ -4,7 +4,7 @@
 
 **Works**
 - Dev Front-end @V-Lab UFPE
-  - React, Typescript, Tailwindcss, HTML, CSS, JavaScript
+  -  HTML, CSS, JavaScript, React, Typescript e Tailwindcss
 - Technology Tutor @CESAR School
   - Python, HTML, CSS e JavaScript
 - Dev Front-end @Instituto Fenix
