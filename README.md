@@ -1,58 +1,121 @@
-### Hi, i'm Robson 🙋 👋.
+# 👋 Bem-vindo! Sou Robson
 
-*Computer Engineering Student at the Federal University of Pernambuco - UFPE*
-
-**Works**
-- Dev Front-end @V-Lab UFPE
-  -  HTML, CSS, JavaScript, React, Typescript e Tailwindcss
-- Technology Tutor @CESAR School
-  - Python, HTML, CSS e JavaScript
-- Dev Front-end @Instituto Fenix
-  - React, HTML, CSS e JavaScript
-  - n8n, Azure
-  - IT infrastructure
-
-<div style="display: inline_block">
-  <br>
-  <img align="center" alt="R0b14-GIT" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
-  <img align="center" alt="R0b14-C" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg">
-  <img align="center" alt="R0b14-GCP" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg">
-  <img align="center" alt="R0b14-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="R0b14-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="R0b14-MARKDOWN" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg">
-  <img align="center" alt="R0b14-GITHUB" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
-  <img align="center" alt="R0b14-UBUNTU" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" />
-  <img align="center" alt="R0b14-ILLUSTRATION" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" />
-  <img align="center" alt="R0b14-PHOTOSHOP" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" />        
+<div align="center">
+  <a href="https://github.com/r0b14">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/r0b14/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://instagram.com/_r0b14" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+  <a href="mailto:rtds@cin.ufpe.br">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
 </div>
 
-##
- 
-**Find Me**
+---
 
-<div> 
-  <a href="https://www.youtube.com/" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
-  <a href="https://instagram.com/_r0b14" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
- <a href="https://discord.gg/_r0b14#8527" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
-  <a href = "mailto:rtds@cin.ufpe.br"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href = "mailto:robsonthiago_@outlook.com"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/r0b14" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-  <!div>
-  
-  
-<!--
-**r0b14/r0b14** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🎓 Sobre Mim
 
-Here are some ideas to get you started:
+<img align="right" height="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"  />
 
-- 🌱 I’m currently learning ...
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-- 
--->
+**Desenvolvedor Full Stack apaixonado por tecnologia**
+
+- 💻 Estudante de **Engenharia da Computação** na Universidade Federal de Pernambuco (UFPE)
+- 🚀 Especializado em desenvolvimento **Front-end** com foco em experiência do usuário
+- 🌐 Experiência com arquitetura em **cloud** e automação
+- 📚 Instrutor de tecnologia com experiência em mentoria
+- 🎨 Conhecimento em design e prototipagem
+
+---
+
+## 💼 Experiência Profissional
+
+### 🎯 Dev Front-end @ V-Lab UFPE
+- React, TypeScript, Tailwind CSS, HTML5, CSS3
+- Desenvolvimento de interfaces modernas e responsivas
+
+### 📖 Tutor de Tecnologia @ CESAR School  
+- Ensino de programação: Python, HTML, CSS, JavaScript
+- Mentoria de jovens desenvolvedores
+
+### ⚙️ Dev Front-end @ Instituto Fênix
+- React, HTML, CSS, JavaScript
+- Criação de soluções web inovadoras
+
+### 🔧 Infraestrutura IT
+- n8n (Automação)
+- Azure (Cloud Computing)
+- Gestão de infraestrutura
+
+---
+
+## 🛠️ Tecnologias & Ferramentas
+
+<div align="center">
+  <h3>Frontend</h3>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="50" alt="HTML5"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="50" alt="CSS3"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="50" alt="JavaScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="50" alt="React"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="50" alt="TypeScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="50" alt="Tailwind CSS"/>
+</div>
+
+<div align="center">
+  <h3>Backend & DevOps</h3>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="50" alt="Python"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="50" alt="C"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="50" alt="Azure"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="50" alt="Google Cloud"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="50" alt="Git"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="50" alt="GitHub"/>
+</div>
+
+<div align="center">
+  <h3>Design & Criatividade</h3>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" height="50" alt="Illustrator"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" height="50" alt="Photoshop"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="50" alt="Figma"/>
+</div>
+
+---
+
+## 📊 Estatísticas GitHub
+
+<div align="center">
+  <a href="https://github.com/r0b14">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=r0b14&theme=dark&show_icons=true"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=r0b14&theme=dark&layout=compact"/>
+  </a>
+</div>
+
+---
+
+## 🎯 Interesses & Objetivos
+
+- 🚀 Desenvolvimento de **Progressive Web Apps (PWA)**
+- 🤖 Explorar **Inteligência Artificial e Machine Learning**
+- 🔐 Segurança da informação e **DevSecOps**
+- 📱 Desenvolvimento mobile com **React Native**
+- 🌍 Contribuir para projetos **open source**
+
+---
+
+## 📞 Vamos Conectar!
+
+<div align="center">
+  <p>
+    <strong>Sempre aberto para:</strong><br>
+    💡 Novas ideias e colaborações<br>
+    🤝 Parcerias em projetos interessantes<br>
+    📚 Discussões sobre tecnologia e inovação<br>
+    💬 Dúvidas? Mande uma mensagem!
+  </p>
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=r0b14&color=blue" alt="Profile Views"/>
+</div>
