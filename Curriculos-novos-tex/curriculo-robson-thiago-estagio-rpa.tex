@@ -1,0 +1,184 @@
+\documentclass[a4paper,10.5pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[scaled=0.92]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[left=1cm,right=1cm,top=0.8cm,bottom=0.5cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{tikz}
+\graphicspath{{img/}}
+\usepackage[hidelinks]{hyperref}
+
+%--------------------------------------------------------------
+% Cores e estilos
+%--------------------------------------------------------------
+\definecolor{primary}{HTML}{1F3A5F}
+\definecolor{muted}{HTML}{444444}
+
+\hypersetup{colorlinks=true, urlcolor=primary}
+
+\titleformat{\section}
+  {\normalfont\large\bfseries\color{primary}}
+  {}{0em}{}[\vspace{-0.7em}\color{primary}\rule{\textwidth}{0.8pt}]
+\titlespacing*{\section}{0pt}{1.0em}{0.55em}
+
+\setlist[itemize]{leftmargin=1.1em, topsep=2pt, itemsep=1.5pt, parsep=0pt}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Cabeçalho de experiência: {cargo}{empresa}{período}
+\newcommand{\cargo}[3]{%
+  \vspace{2pt}
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \textbf{#1} \textnormal{\textbar{} #2} & \textcolor{muted}{#3}
+  \end{tabularx}%
+  \vspace{1pt}
+}
+
+% Linha de competência: {rótulo}{conteúdo}
+\newcommand{\skillline}[2]{\textbf{#1:} #2\\}
+
+% Foto de perfil circular: [diâmetro]{arquivo}
+\newcommand{\fotoperfil}[2][2.6cm]{%
+  \begin{tikzpicture}
+    \begin{scope}
+      \clip (0,0) circle (#1/2);
+      \node[inner sep=0pt] at (0,0) {\includegraphics[width=#1]{#2}};
+    \end{scope}
+    \draw[primary, line width=0.9pt] (0,0) circle (#1/2);
+  \end{tikzpicture}%
+}
+
+\begin{document}
+
+%==============================================================
+% CABEÇALHO
+%==============================================================
+\begin{minipage}[c]{2.6cm}
+  \fotoperfil[2.5cm]{foto.jpg}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{\dimexpr\textwidth-3.0cm\relax}
+  {\LARGE\bfseries\color{primary} ROBSON THIAGO DUARTE DA SILVA}\\[3pt]
+  {\normalsize Estudante de Engenharia da Computação (UFPE) \textbar{} Desenvolvedor \& Automação de Processos}\\[5pt]
+  \small
+  Recife -- PE \textbar{}
+  (81) 98202-1412 \textbar{}
+  \href{mailto:robgol.fidel@gmail.com}{robgol.fidel@gmail.com} \textbar{}
+  \href{https://sites.google.com/cin.ufpe.br/rtds/p\%C3\%A1gina-inicial}{Portfólio}
+\end{minipage}
+
+\vspace{-0.3em}
+
+%==============================================================
+% RESUMO
+%==============================================================
+\section{Resumo Profissional}
+Estudante de Engenharia da Computação na UFPE, com atuação profissional em desenvolvimento
+de software e forte vivência em \textbf{automação de processos, integração de sistemas e manipulação de dados}.
+Experiência prática construindo automações em \textbf{Python (Selenium, Pandas)} e \textbf{Microsoft Power Automate},
+consumindo \textbf{APIs REST} e trabalhando com \textbf{SQL} e bancos de dados para garantir consistência e
+interoperabilidade entre plataformas. Vivência com suporte de TI sob framework \textbf{ITIL}, o que consolidou uma
+leitura crítica de processos operacionais --- base direta para mapear gargalos e propor soluções de RPA.
+Perfil de iniciativa comprovado por \textbf{6 premiações em hackathons} e por um produto homenageado no
+\textbf{Prêmio Innovare (CNJ/STF)}.
+
+%==============================================================
+% COMPETÊNCIAS
+%==============================================================
+
+
+\section{Competências Técnicas}
+\skillline{Automação \& RPA}{Python com Selenium (automação web e de tarefas repetitivas), Pandas (ETL e tratamento de dados), Microsoft Power Automate (fluxos e integrações), automação de planilhas via Google Sheets}
+\skillline{Dados \& Integração}{SQL, modelagem e consulta a bancos de dados relacionais, consumo e integração de APIs REST, extração, transformação e análise de dados (ETL)}
+\skillline{Desenvolvimento}{React, TypeScript, JavaScript, Python, HTML, CSS}
+\skillline{Processos \& Qualidade}{Levantamento e análise de processos, ITIL (suporte N1), testes e validação de soluções, documentação técnica, LGPD}
+\skillline{Ferramentas}{Git/GitHub, Google Workspace, ambientes ágeis}
+\skillline{Workflow IA}{Claude Code CLI, Codex CLI e Cursor IDE}
+
+
+%==============================================================
+% EXPERIÊNCIA
+%==============================================================
+\vspace{-0.5em}
+\section{Experiência Profissional}
+
+\cargo{Desenvolvedor Front-End}{V-Lab UFPE}{1 ano e 5 meses}
+\begin{itemize}
+  \item Desenvolvimento de produtos digitais para o \textbf{AVAMEC}, plataforma educacional do Ministério da Educação, com React e TypeScript.
+  \item Integração de interfaces com \textbf{APIs REST}, garantindo consistência dos dados entre front-end e serviços de back-end.
+  \item Participação no ciclo completo de entrega: análise de requisitos, desenvolvimento, testes, validação e melhoria contínua das soluções.
+  \item Colaboração em equipe multidisciplinar, com versionamento em Git e rotina de code review.
+\end{itemize}
+
+\cargo{Tutor de Tecnologia}{CESAR School --- Projeto Florescendo Talentos}{2 anos e 3 meses}
+\begin{itemize}
+  \item Capacitação de estudantes de Ensino Médio e EJA em \textbf{lógica de programação (Python)}, desenvolvimento web (HTML, CSS, JS) e \textbf{manipulação de dados com SQL e Google Sheets}.
+  \item Construção de materiais e exercícios práticos de \textbf{automação de planilhas e consultas a dados}, traduzindo conceitos técnicos para públicos não técnicos.
+  \item Desenvolvimento de comunicação funcional e didática --- habilidade aplicável ao levantamento de requisitos junto a áreas de negócio.
+\end{itemize}
+
+\cargo{Analista de Help Desk Júnior}{Datamétrica}{1 ano}
+\begin{itemize}
+  \item Suporte de TI Nível 1 a órgãos do Governo do Estado de Pernambuco, aplicando o framework \textbf{ITIL} na gestão de incidentes e requisições.
+  \item Mapeamento de \textbf{processos operacionais recorrentes} e identificação de gargalos passíveis de padronização e automação.
+  \item Registro, categorização e análise de chamados, gerando base para priorização de melhorias.
+\end{itemize}
+
+\cargo{Jovem Aprendiz --- Administrativo}{Proxxi Tecnologia}{1 ano e 6 meses}
+\begin{itemize}
+  \item Organização e controle de documentos com adequação aos requisitos da \textbf{LGPD}.
+  \item Suporte a setores internos, com padronização de rotinas administrativas e controle de informações em planilhas.
+\end{itemize}
+
+\cargo{Professor de Informática Básica}{News Center Cursos \textbar{} ONG Coque Connecta (voluntário)}{10 meses}
+\begin{itemize}
+  \item Ensino de informática básica e ferramentas de produtividade para turmas regulares e para crianças da comunidade do Coque (Recife).
+\end{itemize}
+
+%==============================================================
+% PROJETOS
+%==============================================================
+\vspace{-0.5em}
+\section{Projetos e Reconhecimentos}
+
+\cargo{Desenvolvedor Full Stack --- Fênix Connect}{Homenageado no Prêmio Innovare (21ª ed.)}{}
+\begin{itemize}
+  \item Aplicativo voltado à reintegração social de egressos do sistema prisional, homenageado no \textbf{Prêmio Innovare} --- iniciativa do Instituto Innovare em parceria com \textbf{CNJ, STF e Grupo Globo}.
+  \item Atuação em front-end e back-end, incluindo modelagem de dados, integração via API e testes de validação.
+\end{itemize}
+
+\textbf{Premiações em Hackathons}
+\begin{itemize}
+    \item \textbf{Encubação} -- Recife Resolve 2026.1 \textbar{} \textbf{2º lugar} -- Hackathon BBTS 2025 \textbar{} \textbf{2º lugar} -- EDscript Hackathon do EDS (2026) \textbar{} \textbf{1º lugar} -- Hacker Cidadão 9.0 \textbar{} \textbf{1º lugar} -- Hackathon de SUAPE (2024) \textbar{} \textbf{2º lugar} -- Hacker Cidadão 7.0 \textbar{} \textbf{2º lugar} -- Ideatel 2025 (UFRPE)
+\end{itemize}
+
+%==============================================================
+% FORMAÇÃO
+%==============================================================
+\section{Formação Acadêmica}
+\cargo{Bacharelado em Engenharia da Computação}{Universidade Federal de Pernambuco (UFPE)}{Em andamento}
+\vspace{2pt}
+
+%==============================================================
+% VOLUNTARIADO
+%==============================================================
+\vspace{-1.5em}
+\section{Voluntariado e Comunidade Tech}
+\begin{itemize}
+  \item \textbf{Rec'n'Play} --- Arena IA e Arena de Inovação (2024 e 2025); \textbf{NASA Space Apps} (2025); \textbf{Secomp UFPE} (2024); \textbf{Agile Trends NE} (2025, diretor de palco); \textbf{Casa do Julgamento} (2025).
+\end{itemize}
+
+%==============================================================
+% IDIOMAS
+%==============================================================
+\section{Idiomas}
+Português (nativo) \textbar{} Inglês (leitura técnica)
+
+\end{document}

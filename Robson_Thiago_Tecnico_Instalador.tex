@@ -1,0 +1,116 @@
+%==============================================================
+%  Currículo - Robson Thiago Duarte da Silva
+%  Vaga: Técnico de Instalação e Infraestrutura
+%  Compila com pdfLaTeX (padrão do Overleaf)
+%==============================================================
+\documentclass[10pt,a4paper]{article}
+
+% ---------- Pacotes ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[top=1.4cm,bottom=1.4cm,left=1.7cm,right=1.7cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+% ---------- Cores ----------
+\definecolor{primary}{HTML}{1F3A5F}
+\definecolor{accent}{HTML}{2E6DA4}
+\definecolor{gray}{HTML}{555555}
+
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+
+% ---------- Seções ----------
+\titleformat{\section}
+  {\color{primary}\large\bfseries}
+  {}{0em}{}
+  [\vspace{2pt}{\color{accent}\titlerule[1pt]}]
+\titlespacing*{\section}{0pt}{9pt}{5pt}
+
+% ---------- Listas ----------
+\setlist[itemize]{leftmargin=1.4em, itemsep=1pt, topsep=2pt, parsep=0pt}
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+% ---------- Entrada de experiência ----------
+% #1 Cargo/Título  #2 Empresa/Instituição  #3 Período  #4 Local
+\newcommand{\cventry}[4]{%
+  \vspace{3pt}%
+  {\bfseries #1}\hfill{\color{gray}\small #3}\\
+  {\itshape\color{accent} #2}\hfill{\color{gray}\small #4}\par
+  \vspace{1pt}%
+}
+
+\begin{document}
+
+%==================== CABEÇALHO ====================
+\begin{center}
+  {\color{primary}\Huge\bfseries Robson Thiago Duarte da Silva}\\[6pt]
+  {\large\color{accent} Técnico de Instalação e Infraestrutura}\\[8pt]
+  \small
+  Rua Regência, 113 -- São José, Recife/PE \quad$\vert$\quad (81) 9 8202-1412\\[3pt]
+  \href{mailto:Robsonthiago_@outlook.com}{Robsonthiago\_@outlook.com}
+  \quad$\vert$\quad
+  \href{https://linkedin.com/in/r0b14/}{linkedin.com/in/r0b14}
+  \quad$\vert$\quad CNH AB \quad$\vert$\quad Moto própria
+\end{center}
+
+%==================== RESUMO ====================
+\section{Resumo Profissional}
+Profissional com experiência prática em \textbf{instalação e manutenção de infraestrutura}, cabeamento estruturado (CAT6), conectorização RJ45 e suporte técnico presencial. Formação em Engenharia da Computação (UFPE) com base sólida em hardware e arquitetura de equipamentos, aliada a rotina de atendimento a chamados, cumprimento de normas técnicas e organização do ambiente de trabalho. Atuo com autonomia, proatividade e comprometimento, entregando segurança e qualidade em cada serviço.
+
+%==================== EXPERIÊNCIA ====================
+\section{Experiência Profissional}
+
+\cventry{Técnico de Redes e Infraestrutura}{Rose NET}{Jan/2020 -- Out/2020}{Recife/PE}
+\begin{itemize}
+  \item Instalação e manutenção de infraestrutura de redes físicas: passagem e fixação de cabeamento CAT6 e conectorização RJ45.
+  \item Fixação de equipamentos, organização de infraestrutura e testes de funcionamento conforme especificações técnicas.
+  \item Suporte técnico presencial a clientes, atendimento a chamados e controle de ordens de serviço.
+  \item Manutenções preventivas e corretivas, mantendo limpeza e organização do local de trabalho.
+\end{itemize}
+
+\cventry{Analista de Help Desk Júnior -- N1}{Datamétrica}{02/2022 -- 02/2023}{Recife/PE}
+\begin{itemize}
+  \item Suporte técnico N1 para órgãos do Governo de Pernambuco (SEDUC, COMPESA, DETRAN/PE), com grande volume de atendimentos.
+  \item Triagem, categorização e atendimento de chamados via framework ITIL, com cumprimento de SLAs e escalada estruturada.
+  \item Ponto de comunicação entre usuários, equipes técnicas e fornecedores: coleta de evidências e reporte de status.
+\end{itemize}
+
+\cventry{Jovem Aprendiz -- Suporte Administrativo/TI}{Proxxi Tecnologia LTDA.}{10/2020 -- 03/2022}{Recife/PE}
+\begin{itemize}
+  \item Resolução de problemas em hardware (notebooks Dell) e suporte a setores internos.
+  \item Organização e estruturação de documentos conforme a LGPD; contato com mecatrônica de caixas eletrônicos (Bradesco/Tecban).
+\end{itemize}
+
+\cventry{Desenvolvedor Front-end}{V-Lab -- UFPE}{03/2025 -- Atual}{Recife/PE}
+\begin{itemize}
+  \item Desenvolvimento de produtos digitais para a plataforma AVAMEC (MEC), utilizada em escala nacional.
+  \item Colaboração com equipes multidisciplinares, participando de reuniões técnicas e evolução contínua dos produtos.
+\end{itemize}
+
+%==================== FORMAÇÃO ====================
+\section{Formação}
+\cventry{Engenharia da Computação}{Universidade Federal de Pernambuco (UFPE -- CIn)}{2021 -- 2027 (previsão)}{Recife/PE}
+\textbf{Ensino Médio Completo}
+
+%==================== COMPETÊNCIAS ====================
+\section{Competências Técnicas}
+\begin{itemize}
+  \item \textbf{Infraestrutura e cabeamento:} passagem e fixação de cabos, conectorização RJ45, cabeamento CAT6, organização de infraestrutura.
+  \item \textbf{Hardware:} montagem, configuração e manutenção de equipamentos; base em arquitetura de computadores (Engenharia da Computação).
+  \item \textbf{Informática e Pacote Office:} Windows, Word, Excel, planilhas em nuvem (Google Sheets), rotinas administrativas.
+  \item \textbf{Atendimento técnico:} suporte presencial, atendimento a chamados, plantão e normas técnicas (ITIL).
+\end{itemize}
+
+%==================== INFORMAÇÕES ADICIONAIS ====================
+\section{Informações Adicionais}
+\begin{itemize}
+  \item \textbf{CNH:} Categoria AB \quad$\vert$\quad \textbf{Veículo:} Moto própria -- disponibilidade para escala de plantão e deslocamentos.
+  \item \textbf{Diferencial:} Ensino Superior em Engenharia da Computação em andamento; perfil proativo e com autonomia.
+\end{itemize}
+
+\end{document}
