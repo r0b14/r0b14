@@ -43,6 +43,7 @@
 - **Tutor de Tecnologia @ CESAR School** — ensino de Python, HTML, CSS e JavaScript
 - **Dev Front-end @ Instituto Fênix** — React, HTML, CSS, JavaScript
 - **Infraestrutura IT** — automação com n8n e cloud na Azure
+- **Dev Fullstack @Dtlabs** - Typescript, React, NodeJS e cloud na AWS
 
 ## 🛠️ Tecnologias & Ferramentas
 
